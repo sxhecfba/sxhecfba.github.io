@@ -1,0 +1,79 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0px;
+    font-size: 1.2vw;
+}
+h1 {
+    margin: 0px;
+
+}
+ul {
+    margin: 0px;
+}
+body > header {
+    background-color: rgb(61, 153, 156);
+    color: antiquewhite;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: flex;
+    height: 11vh;
+    align-items: center;
+    justify-content: space-between;
+    justify-content: space-around;
+}
+#nav-ul {
+    display: flex;
+}
+#nav-ul > li {
+    padding: 8px;
+    margin: 16px;
+}
+
+body > header > nav > ul {
+    list-style: none;
+    text-decoration: none;
+}
+.navbutton {
+    text-decoration: none;
+    color: antiquewhite;
+    padding: 12px;
+    border: 1px solid antiquewhite;
+}
+body > main article {
+    width: 70%;
+    margin: auto;
+}
+#main-content {
+    display: flex;
+    justify-content: space-around;
+}
+#main-content > div {
+    width: 75%;
+}
+form {
+    text-align: center;
+}
+h2 {
+    text-align: center;
+}
+img {
+    border-radius: 50%;
+}
+body > footer {
+    background-color: rgb(61, 153, 156);
+    display: flex;
+    justify-content: space-evenly;
+}
+#footer-ul {
+    display: flex;
+    list-style: none;
+    justify-content: flex-end;
+}
+#footer-ul > div > li {
+    margin: 12px;
+}
+#footer-ul > div > li > a {
+    text-decoration: none   
+}
+#footer-ul > div > li > a {
+    color: antiquewhite;
+}
